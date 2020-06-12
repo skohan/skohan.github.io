@@ -36394,7 +36394,7 @@ case 1:return P.a4(q,s)}})
 return P.a6($async$dI,s)}}
 F.tP.prototype={
 M:function(a){var t,s,r,q,p,o=this,n=null
-o.d=F.cl(a,!1).a.a/1.5
+o.d=F.cl(a,!1).a.a/1.2
 o.c=F.cl(a,!1).a.b/1.2
 t=C.y.h(0,900)
 s=o.c
@@ -36402,7 +36402,7 @@ r=o.d
 q=new P.aV(18,18)
 q=S.rm(n,new K.bf(q,q,q,q),n,C.j,T.Q4(C.q6,H.b([C.vp,C.j,C.j,C.vo],u.bk),C.q5,n,C.ju),n,C.W)
 p=u.G
-return new M.om(M.rK(n,new T.fK(C.av,n,n,M.rK(n,new T.fK(C.av,n,n,T.TJ(C.lM,H.b([new T.h9(C.tj,new K.ry(new L.mU(C.tz,n),75,n),n),new T.hq(n,10,n,n),L.oO("Namaste! Sohan here.",A.kH(n,n,n,n,n,n,n,n,n,n,n,25,n,n,n,n,!0,n,n,n,n,n,n)),new T.hq(n,10,n,n),L.oO("Student. Flutter Enthusiast. Trekker.",A.kH(n,n,C.vn,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n)),new T.h9(C.tm,T.TJ(C.he,H.b([M.Cr(N.El(U.Fw("instagram.png",25,25),new F.Fe(o,a)),5),M.Cr(N.El(U.Fw("linkedin.png",25,25),new F.Ff(o,a)),5),M.Cr(N.El(U.Fw("youtube.png",25,25),new F.Fg(o,a)),5),M.Cr(N.El(U.Fw("github.png",25,25),new F.Fh(o,a)),5)],p),C.pS,C.bM),n)],p),C.pT,C.bN),n),n,n,q,n,s,n,n,n,r),n),n,n,n,n,n,n,new V.aE(8,8,8,8),n,n),t,n)}}
+return new M.om(M.rK(n,new T.fK(C.av,n,n,M.rK(n,new T.fK(C.av,n,n,T.TJ(C.lM,H.b([new T.h9(C.tj,new K.ry(new L.mU(C.tz,n),75,n),n),new T.hq(n,10,n,n),L.oO("Namaste! Sohan here.",A.kH(n,n,n,n,n,n,n,n,n,n,n,25,n,n,n,n,!0,n,n,n,n,n,n)),new T.hq(n,10,n,n),L.oO("Student. Flutter Enthusiast. Trekker.",A.kH(n,n,C.vn,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n)),new T.h9(C.tm,T.TJ(C.he,H.b([M.Cr(N.El(U.Fw("instagram.png",25,25),new F.Fe(o,a)),5),M.Cr(N.El(U.Fw("linkedin.png",25,25),new F.Ff(o,a)),5),M.Cr(N.El(U.Fw("youtube.png",25,25),new F.Fg(o,a)),5),M.Cr(N.El(U.Fw("github.png",25,25),new F.Fh(o,a)),5)],p),C.pS,C.bM),n)],p),C.pT,C.bN),n),n,n,q,n,s,n,n,n,r),n),n,n,n,n,n,n,new V.aE(15,15,15,15),n,n),t,n)}}
 F.Fe.prototype={
 $0:function(){var t=0,s=P.a7(u.P),r=this
 var $async$$0=P.a2(function(a,b){if(a===1)return P.a4(b,s)
