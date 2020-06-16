@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.heading{
+  padding:10px;
+}
+.paragraph{
+  padding:10px;
+}
+.navbar-items-c{
+  display:inline-block;
+  float:right;
+}
+.navbar{
+  background-color:#222;
+  color:#ddd;
+  min-height:50px;
+  width:100%;
+}
+.navbar-container{
+  max-width:950px;
+  margin:0 auto;
+  width:95%;
+}
+.navbar-container::after{
+  content:"";
+  clear:both;
+  display:block;
+}
+.navbar-brand{
+  vertical-align:top;
+  display:inline-block;
+  padding:5px;
+  min-height:50px;
+  min-width:50px;
+  color:inherit;
+  text-decoration:none;
+}
+.navbar-menu{
+  padding:10px 0;
+  display:block;
+  float:right;
+  margin:0;
+}
+.navbar-menu-link{
+  margin:0;
+  color:inherit;
+  text-decoration:none;
+  display:inline-block;
+  padding:10px 15px;
+}
+.navbar-burger{
+  margin:10px 0;
+  width:45px;
+  padding:5px 10px;
+  display:none;
+  float:right;
+  cursor:pointer;
+}
+.navbar-burger-line{
+  padding:1px;
+  background-color:white;
+  margin:5px 0;
+}
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#i96z{
+  color:black;
+  width: 350px;
+  height: 250px;
+}
+#i6y1{
+  float:none;
+  flex-basis:100%;
+}
+#i1sk{
+  flex-basis:100%;
+}
+#iecx{
+  padding:2% 2% 2% 2%;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  text-decoration:none;
+  opacity:1;
+  border-radius:0 0 0 0;
+}
+#iomeq{
+  padding:2% 2% 2% 2%;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  text-decoration:none;
+  opacity:1;
+  border-radius:0 0 0 0;
+}
+#im9mh{
+  flex-basis:100%;
+}
+#ir66i{
+  color:black;
+  width: 350px;
+  height: 250px;
+}
+#i78mj{
+  float:none;
+  flex-basis:100%;
+}
+#ifjb2{
+  color:black;
+  width: 350px;
+  height: 250px;
+}
+#iv4l3{
+  color:black;
+  width: 350px;
+  height: 250px;
+}
+#ixasd{
+  float:none;
+  color: white;
+}
+#i7w2{
+  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-size:large;
+  text-align:center;
+  text-decoration:none;
+  line-height:44px;
+  color: white;
+}
+/* #imr29:hover{
+  float:none;
+  padding:1% 1px 1px 1px;
+  text-align:center;
+  font-size:40px;
+} */
+#imr29{
+  text-align:center;
+  font-size:40px;
+  padding:2% 1px 1px 1px;
+}
+@media (max-width: 768px){
+  .navbar-burger{
+    display:block;
+  }
+  .navbar-items-c{
+    display:none;
+    width:100%;
+  }
+  .navbar-menu{
+    width:100%;
+  }
+  .navbar-menu-link{
+    display:block;
+  }
+  .row{
+    flex-wrap:wrap;
+  }
+}
+@media (max-width: 480px){
+  #imr29:hover{
+    font-family:Trebuchet MS, Helvetica, sans-serif;
+  }
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
