@@ -2,6 +2,17 @@
 
 <head>
     <link rel="stylesheet" href="projects.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,46 +31,54 @@
       </div>
       <div id="imr29">
       </div>
-      <div id="iecx" class="row">
-        <div id="i1sk" class="cell">
-          <a href="coronastat/">
-          <img id="iv4l3" src="virus.jpg"/>
-          <h1 id="ikwmj" class="heading">Coronastat
-          </h1>
-          <p id="iorb1" class="paragraph">A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
-          </p>
-          </a>
-        </div>
-        <div id="i6y1" class="cell">
-          <a href="http://punabank.herokuapp.com/">
-          <img id="i96z" src="skyscraper.jpg"/>
-          <h1 id="ifel" class="heading">Virtual bank
-          </h1>
-          <p id="icah" class="paragraph">The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
-          </p>
-          </a>
-        </div>
-      </div>
-      <div id="iomeq" class="row">
-        <div id="im9mh" class="cell" >
-          <a href="todo/">
-          <img src="todo.jpg" id="ir66i"/>
-          <h1 id="ivs3a" class="heading">Todo App
-          </h1>
-          <p id="inp3m" class="paragraph">First time using bloc pattern in flutter framework. It is a Todo app /webapp made in flutter.
-          </p>
-          </a>
-        </div>
-        <div id="i78mj" class="cell">
-          <a href="https://github.com/sohan-k/Snake-game">
-          <img src="dice.jpg" id="ifjb2"/>
-          <h1 id="iuold" class="heading">A Snake Game
-          </h1>
-          <p id="igw9o" class="paragraph">Snake game implemented in python using Pygame library. You can check out the source code on github.
-          </p>
-          </a>
-        </div>
-      </div>
+<div class="row" >
+
+<div class="col">
+  <div class="card" style="width:400px;">
+    <img class="card-img-top" src="virus.jpg" style="width: 100%;">
+    <div class="card-body">
+    <h4 class="card-title">Coronastat</h4>
+    <p class="card-text">A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
+    </p>
+    <div ><a href="coronastat/" class="btn btn-primary">See Project</a></div>
+  </div>
+  </div>
+
+
+<div class="card" style="width:400px;">
+  <img class="card-img-top" src="skyscraper.jpg" style="width: 100%;">
+  <div class="card-body">
+  <h4 class="card-title">Virtual bank</h4>
+  <p class="card-text">The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
+  </p>
+  <a href="http://punabank.herokuapp.com/" class="btn btn-primary">See Project</a>
+</div>
+</div>
+</div>
+
+<div class="col" style="align-self: center;">
+  <div class="card" style="width:400px;" >
+    <img class="card-img-top" src="todo.jpg" style="width: 100%;">
+    <div class="card-body">
+    <h4 class="card-title">Todo App</h4>
+    <p class="card-text">First time using bloc pattern in flutter framework. It is a Todo app /webapp made in flutter.
+    </p>
+    <div><a href="todo/" class="btn btn-primary">See Project</a></div>
+  </div>
+  </div>
+
+  <div class="card" style="width:400px;">
+    <img class="card-img-top" src="dice.jpg" style="width: 100%;">
+    <div class="card-body">
+    <h4 class="card-title">A Snake Game</h4>
+    <p class="card-text">Snake game implemented in python using Pygame library. You can check out the source code on github.
+    </p>
+    <div ><a href="https://github.com/sohan-k/Snake-game" class="btn btn-primary">See Project</a></div>
+  </div>
+  </div>
+</div>
+</div>
+
       <script>var items = document.querySelectorAll('#i5a4z');
         for (var i = 0, len = items.length; i < len; i++) {
           (function(){
