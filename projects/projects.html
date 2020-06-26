@@ -17,27 +17,62 @@
 </head>
 
 <body>
-  
-  <div data-gjs="navbar" class="navbar">
-    <div class="navbar-container">
-      <a href="/" title="@skohan" class="navbar-brand" id="i7w2">@skohan</a>
-      <div id="i5a4z" class="navbar-burger">
 
-      </div>
-      <div data-gjs="navbar-items" class="navbar-items-c">
-        <nav data-gjs="navbar-menu" class="navbar-menu">
-          <a href="/" title="Home page" class="navbar-menu-link" id="ixasd">Home</a>
-        </nav>
-      </div>
+  <style>
+    img {
+
+      max-width: 400px;
+      max-height: 350px;
+      min-width: 400px;
+      min-height: 350px;
+    }
+
+    .card {
+      max-width: 400px;
+      max-height: fit-content;
+    }
+
+    .row {
+      align-items: center;
+      margin: 5%;
+      padding: 5%;
+    }
+
+    .col {
+      align-items: center;
+      margin: 10%;
+      padding: 10%;
+    }
+  </style>
+
+  <nav class="navbar navbar-expand-lg  bg-dark">
+    <a class="navbar-brand" href="/" style="color: white;">@skohan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
-  </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/" style="color: white;"> Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div id="imr29">
   </div>
-  <div class=" flex-col" >
-  <div class="row" style="align-self: center;"  >
-      <div class="col-lg-4">
-        <div class="card" style="width:400px;">
-          <img class="card-img-top" src="virus.jpg" style="width: 100%;">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md- col-lg- col-xl-">
+        <div class="card">
+          <img class="card-img-top" src="virus.jpg">
           <div class="card-body">
             <h4 class="card-title">Coronastat</h4>
             <p class="card-text">A flutter android app/webapp for showcasing current number of corona virus cases all
@@ -47,11 +82,11 @@
           </div>
         </div>
       </div>
+      <div class="col-md- col-lg- col-xl-"></div>
 
-
-      <div class="col-lg-5">
-        <div class="card" style="width:400px;">
-          <img class="card-img-top" src="skyscraper.jpg" style="width: 100%;">
+      <div class="col-md- col-lg- col-xl-">
+        <div class="card">
+          <img class="card-img-top" src="skyscraper.jpg">
           <div class="card-body">
             <h4 class="card-title">Virtual bank</h4>
             <p class="card-text">The Puna Bank! A virtual online bank without any infrastructure made in Python Flask
@@ -61,11 +96,11 @@
           </div>
         </div>
       </div>
-    
+      <div class="col-md- col-lg- col-xl-"></div>
 
-      <div class="col-lg-4">
-        <div class="card" style="width:400px;">
-          <img class="card-img-top" src="todo.jpg" style="width: 100%;">
+      <div class="col-md- col-lg- col-xl-">
+        <div class="card">
+          <img class="card-img-top" src="todo.jpg">
           <div class="card-body">
             <h4 class="card-title">Todo App</h4>
             <p class="card-text">First time using bloc pattern in flutter framework. It is a Todo app /webapp made in
@@ -75,11 +110,11 @@
           </div>
         </div>
       </div>
+      <div class="col-md- col-lg- col-xl-"></div>
+      <div class="col-md- col-lg- col-xl-">
 
-      <div class="col-lg-4">
-
-        <div class="card" style="width:400px;">
-          <img class="card-img-top" src="dice.jpg" style="width: 100%;">
+        <div class="card">
+          <img class="card-img-top" src="dice.jpg">
           <div class="card-body">
             <h4 class="card-title">A Snake Game</h4>
             <p class="card-text">Snake game implemented in python using Pygame library. You can check out the source
@@ -89,8 +124,8 @@
           </div>
         </div>
       </div>
-   
-  </div>
+
+    </div>
   </div>
 
   <script>var items = document.querySelectorAll('#i5a4z');
