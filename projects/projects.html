@@ -23,7 +23,7 @@
 
       width: fit-content;
       height: max-content;
-      
+
     }
 
     .card {
@@ -36,30 +36,29 @@
       margin: 2%;
       padding: 2%;
     }
-
-
   </style>
-
-  <nav class="navbar navbar-expand-lg  bg-dark">
-    <!-- <a class="navbar-brand" href="/" style="color: white;">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-    <div class="mx-auto order-0">
-      <a class="navbar-brand mx-auto" href="/" style="color: white;">@skohan</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">@skohan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/" style="color: white;"> Home</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs(Coming soon!)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <div id="imr29">
   </div>
   <div class="container">
@@ -113,6 +112,16 @@
               code on github.
             </p>
             <div><a href="https://github.com/sohan-k/Snake-game" class="btn btn-primary">See Project</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Coming soon!</h4>
+            <p class="card-text">More projects coming soon.
+            </p>
+            <!-- <div><a href="todo/" class="btn btn-primary">See Project</a></div> -->
           </div>
         </div>
       </div>
