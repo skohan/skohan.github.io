@@ -1,74 +1,62 @@
-<html>
-
-<head>
-  <link rel="stylesheet" href="projects.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-</head>
-
-<body>
-
-  <style>
-    img {
-
-      width: fit-content;
-      height: max-content;
-
-    }
-
-    .card {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .row {
-      align-items: center;
-      margin: 2%;
-      padding: 2%;
-    }
-
-    body{
-      margin-top: 60px;
-    }
-  </style>
-
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">@skohan</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blogs(Coming soon!)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a>
-        </li>
-      </ul>
-
+  <!-- <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">@skohan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs(Coming soon!)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
-  <div id="imr29" style="height: min-content;font-size: xx-large;">
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card">
+  </header> -->
+  
+  <!-- <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+
+
+      <!-- <div class="container">
+      <div class="container" id="imr29"></div>
+      <div class="row" style="align-items: center;">
+
+        <div class="col-sm-6">
           <img class="card-img-top" src="virus.jpg">
           <div class="card-body">
             <h4 class="card-title">Coronastat</h4>
@@ -77,11 +65,10 @@
             </p>
             <div><a href="coronastat/" class="btn btn-primary">See Project</a></div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4">
-        <div class="card">
+        </div>
+
+        <div class="col-sm-6">
           <img class="card-img-top" src="skyscraper.jpg">
           <div class="card-body">
             <h4 class="card-title">Virtual bank</h4>
@@ -90,11 +77,11 @@
             </p>
             <a href="http://punabank.herokuapp.com/" class="btn btn-primary">See Project</a>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4">
-        <div class="card">
+        </div>
+
+        <div class="col-sm-6">
+
           <img class="card-img-top" src="todo.jpg">
           <div class="card-body">
             <h4 class="card-title">Todo App</h4>
@@ -103,11 +90,10 @@
             </p>
             <div><a href="todo/" class="btn btn-primary">See Project</a></div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4">
-        <div class="card">
+        </div>
+
+        <div class="col-sm-6">
           <img class="card-img-top" src="dice.jpg">
           <div class="card-body">
             <h4 class="card-title">A Snake Game</h4>
@@ -117,11 +103,27 @@
             <div><a href="https://github.com/sohan-k/Snake-game" class="btn btn-primary">See Project</a></div>
           </div>
         </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">More projects!</h4>
+              <p class="card-text">More projects on their way.
+              </p>
+              <div><a href="todo/" class="btn btn-primary">See Project</a></div>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div> -->
 
-    </div>
-  </div>
 
+
+
+
+
+  <!-- 
   <script>var items = document.querySelectorAll('#i5a4z');
     for (var i = 0, len = items.length; i < len; i++) {
       (function () {
@@ -186,7 +188,4 @@
       }
         .bind(items[i]))();
     }
-  </script>
-</body>
-
-</html>
+  </script> -->
