@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 body {
@@ -144,7 +144,7 @@ body {
   padding:1% 1px 1px 1px;
   text-align:center;
   font-size:40px;
-} */
+} *//*
 #imr29{
   text-align:center;
   font-size:40px;
@@ -196,4 +196,4 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
-}
+} */

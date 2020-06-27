@@ -1,192 +1,158 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <link rel="stylesheet" href="projects.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>@skohan</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+  <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#563d7c">
+  
+  
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+    body {
+      margin-top: 100px;
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="/static/style.css" rel="stylesheet">
+  <link rel="icon" href="icon.png">
 </head>
 
 <body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">@skohan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs (Coming soon!)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main role="main">
 
-  <style>
-    img {
-
-      width: fit-content;
-      height: max-content;
-
-    }
-
-    .card {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .row {
-      align-items: center;
-      margin: 2%;
-      padding: 2%;
-    }
-
-    body{
-      margin-top: 60px;
-    }
-  </style>
-
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">@skohan</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blogs(Coming soon!)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
-  <div id="imr29" style="height: min-content;font-size: xx-large;">
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card">
-          <img class="card-img-top" src="virus.jpg">
-          <div class="card-body">
-            <h4 class="card-title">Coronastat</h4>
-            <p class="card-text">A flutter android app/webapp for showcasing current number of corona virus cases all
-              over the world. You also can see data of individual country and graphical representation of data.
-            </p>
-            <div><a href="coronastat/" class="btn btn-primary">See Project</a></div>
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- <div>
+        <h2 align="center">Popular Blogs</h2>
+      </div> -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="virus.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Coronastat</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </img>
+          <h2>Coronastat</h2>
+          <br>
+          <p>A flutter android app/webapp for showcasing current number of corona virus cases all
+            over the world. You also can see data of individual country and graphical representation of data.
+          <p><a class="btn btn-secondary" href="coronastat/" role="button">See project »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="skyscraper.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Virtual bank</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </img>
+          <h2>Virtual bank </h2>
+          <br>
+          <p>The Puna Bank! A virtual online bank without any infrastructure made in Python Flask
+            framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
+          </p>
+          <p><a class="btn btn-secondary" href="http://punabank.herokuapp.com/" role="button">See project »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="todo.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>Todo App</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </img>
+          <h2>Todo App</h2>
+          <p>First time using bloc pattern in flutter framework. It is a Todo app /webapp made in
+            flutter.</p>
+          <p><a class="btn btn-secondary" href="todo/" role="button">See project »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="todo.jpg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+          <title>A Snake Game</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </img>
+          <h2>A Snake Game</h2>
+          <p>Snake game implemented in python using Pygame library. You can check out the source
+            code on github.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/sohan-k/Snake-game" role="button">See project »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4" style="margin-top: 60px;">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">More projects!</h4>
+              <p class="card-text">More projects on their way.
+              </p>
+              <div><a href="#" class="btn btn-primary">Coming soon</a></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <img class="card-img-top" src="skyscraper.jpg">
-          <div class="card-body">
-            <h4 class="card-title">Virtual bank</h4>
-            <p class="card-text">The Puna Bank! A virtual online bank without any infrastructure made in Python Flask
-              framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
-            </p>
-            <a href="http://punabank.herokuapp.com/" class="btn btn-primary">See Project</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <img class="card-img-top" src="todo.jpg">
-          <div class="card-body">
-            <h4 class="card-title">Todo App</h4>
-            <p class="card-text">First time using bloc pattern in flutter framework. It is a Todo app /webapp made in
-              flutter.
-            </p>
-            <div><a href="todo/" class="btn btn-primary">See Project</a></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <img class="card-img-top" src="dice.jpg">
-          <div class="card-body">
-            <h4 class="card-title">A Snake Game</h4>
-            <p class="card-text">Snake game implemented in python using Pygame library. You can check out the source
-              code on github.
-            </p>
-            <div><a href="https://github.com/sohan-k/Snake-game" class="btn btn-primary">See Project</a></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <script>var items = document.querySelectorAll('#i5a4z');
-    for (var i = 0, len = items.length; i < len; i++) {
-      (function () {
-        var e, t = 0, n = function () {
-          var e, t = document.createElement("void"), n = {
-            transition: "transitionend", OTransition: "oTransitionEnd", MozTransition: "transitionend", WebkitTransition: "webkitTransitionEnd"
-          };
-          for (e in n) if (void 0 !== t.style[e]) return n[e]
-        }
-          (), r = function (e) {
-            var t = window.getComputedStyle(e), n = t.display, r = (t.position, t.visibility, t.height, parseInt(t["max-height"]));
-            if ("none" !== n && "0" !== r) return e.offsetHeight;
-            e.style.height = "auto", e.style.display = "block", e.style.position = "absolute", e.style.visibility = "hidden";
-            var i = e.offsetHeight;
-            return e.style.height = "", e.style.display = "", e.style.position = "", e.style.visibility = "", i
-          }
-          , i = function (e) {
-            t = 1;
-            var n = r(e), i = e.style;
-            i.display = "block", i.transition = "max-height 0.25s ease-in-out", i.overflowY = "hidden", "" == i["max-height"] && (i["max-height"] = 0), 0 == parseInt(i["max-height"]) ? (i["max-height"] = "0", setTimeout(function () {
-              i["max-height"] = n + "px"
-            }
-              , 10)) : i["max-height"] = "0"
-          }
-          , a = function (r) {
-            if (r.preventDefault(), !t) {
-              var a = this.closest("[data-gjs=navbar]"), o = a.querySelector("[data-gjs=navbar-items]");
-              i(o), e || (o.addEventListener(n, function () {
-                t = 0;
-                var e = o.style;
-                0 == parseInt(e["max-height"]) && (e.display = "", e["max-height"] = "")
-              }
-              ), e = 1)
-            }
-          };
-        "gjs-collapse" in this || this.addEventListener("click", a), this["gjs-collapse"] = 1
-      }
-        .bind(items[i]))();
-    }
-    var items = document.querySelectorAll('#imr29');
-    for (var i = 0, len = items.length; i < len; i++) {
-      (function () {
-        var e = this, t = JSON.parse('["Gallery of my projects","Gallery of my work","Gallery of my interests"]'), r = function (e) {
-          return parseInt(e, 10) || 0
-        }
-          , n = function (e) {
-            return !!e
-          }
-          , o = function () {
-            var o = e;
-            o.innerHTML = '<span></span>';
-            var c = parseInt('Infinity', 10), s = {
-              typeSpeed: r('10'), startDelay: r('1000'), backDelay: r('1000'), backSpeed: r(''), smartBackspace: n('true'), fadeOut: n(''), fadeOutClass: 'typed-fade-out', fadeOutDelay: r('500'), shuffle: n(''), loop: n('true'), loopCount: isNaN(c) ? 1 / 0 : c, showCursor: n('true'), cursorChar: '|', autoInsertCss: n('true'), bindInputFocusEvents: n(''), attr: '', contentType: 'html'
-            };
-            t && t.length && (s.strings = t), new Typed(o.children[0], s)
-          };
-        if (window.Typed) o();
-        else {
-          var c = document.createElement('script');
-          c.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.11', c.onload = o, document.head.appendChild(c)
-        }
-      }
-        .bind(items[i]))();
-    }
-  </script>
+      </div><!-- /.row -->
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
 </body>
 
 </html>
