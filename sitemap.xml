@@ -1,44 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://sohankale.cf/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-<loc>https://sohankale.cf/</loc>
+  <loc>https://sohankale.cf/</loc>
+  <lastmod>2021-01-12T06:35:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/projects/</loc>
+  <lastmod>2021-01-12T06:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/blogs/</loc>
+  <lastmod>2021-01-12T06:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/linkedin/</loc>
+  <lastmod>2021-01-08T10:14:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/instagram/</loc>
+  <lastmod>2021-01-08T10:14:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/youtube/</loc>
+  <lastmod>2021-01-08T10:14:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/github/</loc>
+  <lastmod>2021-01-08T10:14:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/projects/coronastat/</loc>
+  <lastmod>2020-11-06T15:09:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sohankale.cf/projects/todo/</loc>
+  <lastmod>2020-11-06T15:09:15+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
-<url>
-<loc>https://sohankale.cf/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/projects/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/linkedin/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/youtube/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/newblog/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/github/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
-
-<url>
-<loc>https://sohankale.cf/instagram/index.html</loc>
-<lastmod>2021-01-03T19:41:27+05:30</lastmod>
-</url>
 
 </urlset>
