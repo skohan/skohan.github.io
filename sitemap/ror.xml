@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://sohankale.cf/</title>
+  <link>http://sohankale.cf/</link>
+
+<item>
+     <link>https://sohankale.cf/</link>
+     <title>Welcome</title>
+     <description>Personal website of Sohan Kale who is student at VIIT Pune pursuing computer engineering. See Sohan Kale's projects and connect to him on LinkedIn Github Hackerrank and Youtube. He is trekker and Competitive coder Flutter Developer Python lover.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/projects/</link>
+     <title>@skohan</title>
+     <description>Sohan Kale projects. Personal projects, hosted on github. Coronastat: A flutter android app/webapp for showcasing current number of corona virus cases all over the world. See data of individual country and graphical representation of data. Flute Music Player: A music player made in flutter download from Apkpure. Puna bank: A virtual online bank made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer. Snake Game: Snake game implement</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/blogs/</link>
+     <title>Blogs</title>
+     <description>Blogs by Sohan on other platforms like Medium and on OhMySahyadri for trekking</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/linkedin/</link>
+     <title>LinkedIn</title>
+     <description>Sohan Kale projects. Personal projects, hosted on github. Coronastat: A flutter android app/webapp for showcasing current number of corona virus cases all over the world. See data of individual country and graphical representation of data. Flute Music Player: A music player made in flutter download from Apkpure. Puna bank: A virtual online bank made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer. Snake Game: Snake game implement</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/instagram/</link>
+     <title>Instagram</title>
+     <description>Sohan Kale projects. Personal projects, hosted on github. Coronastat: A flutter android app/webapp for showcasing current number of corona virus cases all over the world. See data of individual country and graphical representation of data. Flute Music Player: A music player made in flutter download from Apkpure. Puna bank: A virtual online bank made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer. Snake Game: Snake game implement</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/youtube/</link>
+     <title>YouTube</title>
+     <description>YouTube</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/github/</link>
+     <title>Github</title>
+     <description>Sohan Kale projects. Personal projects, hosted on github. Coronastat: A flutter android app/webapp for showcasing current number of corona virus cases all over the world. See data of individual country and graphical representation of data. Flute Music Player: A music player made in flutter download from Apkpure. Puna bank: A virtual online bank made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer. Snake Game: Snake game implement</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/projects/coronastat/</link>
+     <title>coronastat</title>
+     <description>A new Flutter project.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sohankale.cf/projects/todo/</link>
+     <title>todolist</title>
+     <description>A new Flutter project.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
