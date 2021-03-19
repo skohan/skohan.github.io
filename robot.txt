@@ -1,4 +1,4 @@
 user-agent: *
-allow: /
+allow: *
 
 sitemap: https://sohankale.cf/sitemap.xml
