@@ -41,13 +41,13 @@
             -ms-user-select: none;
             user-select: none;
         }
-        
+
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
         }
-        
+
         body {
             margin-top: 100px;
         }
@@ -79,125 +79,99 @@
     </header>
     <main role="main" class="container">
 
-        <div class="jumbotron text-center text-grey">
-            <h1 class="display-4">Projects</h1>
-            <p class="lead">Some of the projects I've done in my life.</p>
+        <div class="row">
+
+          <div class="col-md-6  text-center order-md-12" >
+              <img src="/assets/undraw_maker_launch_crhe.svg" alt="projects" style="height: 300px;width: 300px;">
+          </div>
+
+            <div class="jumbotron text-center text-grey col-md-6  order-md-1 ">
+                <h1 class="display-4">Projects</h1>
+                <p class="lead">Some of the projects I've done in my life.</p>
+            </div>
 
         </div>
 
-        <!-- Marketing messaging and featurettes
-  ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div><br></div>
+
         <div class="container marketing">
             <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="virus.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Coronastat</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Coronastat</h2>
-                    <br>
-                    <p> <b>NOTE: APIs are down so this app no longer works.</b> A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of
-                        data.
-                        <p><a class="btn btn-secondary" href="coronastat/CoronastatDemo.mp4" role="button">See project Demo
-                            Video »</a></p>
-                        <!-- <p><a class="btn btn-secondary" href="https://github.com/sohan-k/CoronaStat/releases/download/v0.0/coronstat.apk" role="button">Download
-                            App »</a></p> -->
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="todo.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Fluffy Music Player</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Fluffy Music Player</h2>
-                    <p>My first project in flutter, making a music player app with features like seek, play, pause and shuffle! <i>Search feature is still in development</i>
-                    </p>
-                    <p><a class="btn btn-secondary" href="./fluffy_music_player.apk" target="_blank" rel="noopener noreferrer" role="button"> Download App »</a></p>
-                </div>
+            <div class="row" id="projects">
 
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="skyscraper.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Custom Url Shortner Using Django</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Custom Url Shortner</h2>
-                    <br>
-                    <p>A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap. Visit the website to learn more.
-                    </p>
-                    <p><a class="btn btn-secondary" href="https://chorty.herokuapp.com/" role="button">Visit Site
-                            »</a></p>
-                </div>
+                <!-- projects -->
 
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="skyscraper.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Custom Url Shortner Using Django</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Custom Url Shortner</h2>
-                    <br>
-                    <p>A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap. Visit the website to learn more.
-                    </p>
-                    <p><a class="btn btn-secondary" href="https://bdaproject.herokuapp.com/" role="button">Visit Site
-                            »</a></p>
-                </div>
+            </div>
 
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="skyscraper.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Virtual bank</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Virtual bank </h2>
-                    <br>
-                    <p>The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
-                    </p>
-                    <p><a class="btn btn-secondary" href="https://punabank.herokuapp.com/" role="button">See project
-                            »</a></p>
-                </div>
-                <!-- /.col-lg-4 -->
 
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="todo.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>Todo App</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>Todo App</h2>
-                    <p>First time using bloc pattern in flutter framework. It is a Todo app and webapp made in flutter.
-                    </p>
-                    <p><a class="btn btn-secondary" href="todo/" role="button">See project »</a></p>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="todo.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                    <title>A Snake Game</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                    </img>
-                    <h2>A Snake Game</h2>
-                    <p>A open source project. Initially I implemented Snake game in python using Pygame library and C++ using SDL. Now because of support from Open Source, it is available in other languages too. You can check out the source code on github.
-                    </p>
-                    <p><a class="btn btn-secondary" href="https://github.com/skohan/Snake-game" role="button">See
-                            project »</a>
-                    </p>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4" style="margin-top: 60px;">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">More projects!</h4>
-                            <p class="card-text">More projects on their way. Or you can stalk my github for other project contribution.
-                            </p>
-                            <div><a href="/github/" class="btn btn-primary">Go to GitHub</a></div>
-                        </div>
+            <div class="row" style="margin-top: 60px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center card">
+                    <div class="card-body">
+                        <h4 class="card-title">More projects!</h4>
+                        <p class="card-text">More projects on their way. Or you can stalk my github for other project contribution.
+                        </p>
+                        <div><a href="/github/" class="btn btn-primary">Go to GitHub</a></div>
                     </div>
                 </div>
             </div>
-            <!-- /.row -->
-            <!-- START THE FEATURETTES -->
+
+          </main>
             <hr class="featurette-divider">
+
+            <footer class="py-5" style="background-color: black;">
+                <div class="container">
+                    <p class="text-center text-white m-0 small">Copyright&nbsp;© <a href="https://sohankale.cf" >Skohan</a> 2020</p>
+                </div>
+            </footer>
+
+            <script>
+                data = [
+                    dataModel("Coronastat", "NOTE: APIs are down so this app no longer works.</b> A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.", "coronastat/CoronastatDemo.mp4", "See project Demo Video", "virus.jpg"),
+                    dataModel("Fluffy Music Player", "My first project in flutter, making a music player app with features like seek, play, pause and shuffle! <i>Search feature is still in development</i > ", "./ fluffy_music_player.apk", "Download App", "todo.jpg"),
+                    dataModel("Custom Url Shortner Using Django", "A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap.Visit the website to learn more. ", "https://chorty.herokuapp.com/", "Visit Site","todo.jpg"),
+                    dataModel("Diabetes predictor", "A site to predict the diabetes of the patients, given the appropriate inputs. It uses Random Forest under the hood for prediction",
+                        "https://bdaproject.herokuapp.com/", "Visit Site", "todo.jpg"),
+                    dataModel("Virtual bank", "The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.",
+                        "https://punabank.herokuapp.com/", "Visit Site", "skyscraper.jpg"),
+                    dataModel("Todo App", "First time using bloc pattern in flutter framework. It is a Todo app and webapp made in flutter.",
+                        "todo/", "Visit Site", "todo.jpg"),
+                    dataModel("A Snake Game", "A open source project. Initially I implemented Snake game in python using Pygame library and C++ using SDL. Now because of support from Open Source, it is available in other languages too.You can check out the source code on github.",
+                    "https://github.com/skohan/Snake-game", "Visit Site", "todo.jpg"),
+                ]
+
+                output = "";
+
+                data.forEach(d => {
+                        console.log(d)
+                        output += `
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-5" >
+                            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="${d.imageUrl}" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+                            <title>${d.cardTitle}</title>
+                            <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                            </img>
+                            <h2>${d.cardTitle}</h2>
+                            <p>${d.description}</p>
+                            <p><a class="btn btn-secondary" href="${d.link}" role="button">${d.buttonTitle} »</a></p>
+                        </div>
+                    `
+                    });
+
+                console.log(output)
+                document.querySelector("#projects").innerHTML = output
+
+                function dataModel(cardTitle, description, link, buttonTitle, imageUrl)
+                {
+                    var obj =   {
+                        cardTitle: cardTitle,
+                        description: description,
+                        buttonTitle: buttonTitle,
+                        link: link,
+                        imageUrl: imageUrl
+                    }
+                    // console.log(obj)
+
+                    return obj
+                }
+            </script>
 
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
