@@ -1,4 +1,4 @@
-        // document.querySelector("#loading").style.display = "";
+        document.querySelector("#loading").style.display = "";
         fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@skohan')
             .then((res) => res.json())
             .then((data) => {
@@ -41,8 +41,9 @@
 
             `
                 })
+
+                console.log("Completed");
+                document.querySelector("#loading").style.display = "none";
                 document.querySelector('#posts').innerHTML = output
 
             })
-
-        document.querySelector("#loading").style.display = "none";
