@@ -1,0 +1,24 @@
+
+- name: CoronaStat
+  description: Note APIs might get down anytime, so app may not work in such cases. A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
+  link: google.com
+
+- name: Custom Url Shortner Using Django
+  description: A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap.Visit the website to learn more. 
+  link: https://chorty.herokuapp.com/
+
+- name: Diabetes predictor
+  description: The third year first semester project for big data analysis subject. A site to predict the diabetes of the patients, given the appropriate inputs. It uses Random Forest under the hood for prediction
+  link: https://bdaproject.herokuapp.com/
+
+- name: Virtual bank
+  description: The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
+  link: https://punabank.herokuapp.com/
+
+- name: Todo App
+  description: First time using bloc pattern in flutter framework. It is a Todo app and webapp made in flutter.
+  link: google.com
+
+- name: A Snake Game
+  description: A open source project. Initially I implemented Snake game in python using Pygame library and C++ using SDL. Now because of support from Open Source, it is available in other languages too.You can check out the source code on github.
+  link: https://github.com/skohan/Snake-game

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blogs
+banner_text: Blogs
+banner_disc: Here is some links for the some of my blogs written on other site like medium. Hope you find it useful.
+<!-- banner_img: /assets/images/undraw_maker_launch_crhe.svg -->
+banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
+---
+
+
+<div class="container marketing">
+    {% include banner.html %}
+
+
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,115 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: base
+contact_me: https://linkedin.com/in/sohan-kale
+---
 
-<head>
+<link rel="stylesheet" href="/assets/css/cover.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173651502-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  body{
+    background-image: url("/assets/images/bg.jpg")
+  }
+</style>
 
-        gtag('config', 'UA-173651502-1');
-    </script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">@skohan</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        {% for item in site.data.navigation %}
 
-    <meta name="description" content="Personal website of Sohan Kale who is student at VIIT Pune pursuing computer engineering. See Sohan Kale's projects and connect to him on LinkedIn Github Hackerrank and Youtube. He is trekker and Competitive coder Flutter Developer Python lover.">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors, Sohan Kale">
-    <meta name="generator" content="Jekyll v4.0.1">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="canonical" href="https://sohankale.cf">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- Favicons -->
-    <meta name="theme-color" content="#563d7c">
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+        <a href="{{ item.link }}" {% if page.url==item.link %} class="active nav-link" {%else%} class="nav-link"
+          {%endif%}>{{
+          item.name }}</a>
 
-    <link rel="icon" href="favicon.ico">
-</head>
+        {% endfor %}
+        <a class="nav-link" href="{{page.contact_me}}">Contact Me</a>
 
-<body class="text-center" background="bg.jpg">
+      </nav>
+    </div>
+  </header>
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h3 class="masthead-brand">@skohan</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="/projects">Projects</a>
-                    <a class="nav-link" href="/blogs">Blogs</a>
-                    <a class="nav-link" href="/linkedin">Contact Me</a>
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Namaste! I'm Sohan</h1>
+    <p class="lead">Glad you are landed here! This is Sohan Kale. A student, developer. Studying computer engineering at
+      VIIT. Head at <a class="text-info" href="https://codingforum.cf">Coding Forum.</a> Flutter developer students head
+      at DSC VIIT. <a class="text-info" href="https://ohmysahyadri.ml">Explorer Youtuber
+        Photographer.</a> Check out my latest projects (see on top!). Contact me for any work! Follow me on social media
+      :) Have a great life!
+    </p>
+    <p class="lead">
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+      <br>
+    </p>
+    <div class="container">
+      <div class="”row" align-items-center”="">
+        {%include links.html %}
+      </div>
+  </main>
 
-                </nav>
-            </div>
-        </header>
-        <main role="main" class="inner cover">
-            <h1 class="cover-heading">Namaste! I'm Sohan</h1>
-            <p class="lead">Glad you are landed here! This is Sohan Kale. A student, developer. Studying computer engineering at VIIT. Head at <a class="text-info" href="https://codingforum.cf">Coding Forum.</a> Flutter developer students head at DSC VIIT. <a class="text-info"
-                    href="https://ohmysahyadri.ml">Explorer Youtuber
-                    Photographer.</a> Check out my latest projects (see on top!). Contact me for any work! Follow me on social media :) Have a great life!
-            </p>
-            <p class="lead">
-                <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-                <br>
-            </p>
-            <div class="container">
-                <div class="”row" align-items-center”="">
-                    <div class="btn btn-lg">
-                        <a href="instagram/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
-                    </div>
-                    <div class="btn btn-lg ">
-                        <a href="youtube/" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"></a>
-                    </div>
-                    <div class="btn btn-lg">
-                        <a href="github/" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
-                    </div>
-                    <div class="btn btn-lg">
-                        <a href="linkedin/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin"></a>
-                    </div>
-                    <div class="btn btn-lg">
-                        <a href="https://skohan.medium.com/" target="_blank" rel="noopener noreferrer"><span
-                                class="iconify" data-icon="simple-icons:medium" data-inline="false"></span></a>
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>hosted on <a href="https://twitter.com/github">@github</a></p>
+      <p>powered by <a href="https://getbootstrap.com/">@bootstrap</a> & <a href="">@Jekyll</a></p>
+    </div>
+  </footer>
 
-                    </div>
-                </div>
-        </main>
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>hosted on <a href="https://twitter.com/github">@github</a></p>
-                <p>powered by <a href="https://getbootstrap.com/">@bootstrap</a>.</p>
-            </div>
-        </footer>
-        </div>
-
-        <!-- Hackerrank icon -->
-        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+</div>
