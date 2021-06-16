@@ -12,12 +12,22 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
     {% include banner.html %}
 
 
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.excerpt }}
-        </li>
-        {% endfor %}
-    </ul>
+
+    {% for post in site.posts %}
+    <div class="shadow p-3 mb-5 bg-white rounded">
+
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    {{ post.author }}
+                    <small class="text-muted">{{ post.date | date_to_string }}</small>
+                </div>
+                <h2><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p class="article-content">{{ post.excerpt }}</p>
+            </div>
+        </article>
+    </div>
+
+    {% endfor %}
+
 </div>
