@@ -2,3 +2,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  line_numbers: true
+#   syntax_highlighter: coderay

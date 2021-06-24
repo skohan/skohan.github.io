@@ -1,0 +1,82 @@
+I"Ó<p>problem link: <a href="https://cses.fi/problemset/task/1074/">Stikcy length</a></p>
+
+<p>refernces: <a href="https://www.geeksforgeeks.org/ternary-search/">Ternary search</a></p>
+
+<h3 id="explanation">Explanation</h3>
+<p>We apply ternary search between minimum height and maximum height to find optimum solution</p>
+
+<h3 id="code">Code</h3>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++">	<span class="cp">#include &lt;bits/stdc++.h&gt;
+</span>	 
+	<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+	 
+	<span class="k">typedef</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">ull</span><span class="p">;</span>
+	<span class="k">typedef</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">ll</span><span class="p">;</span>
+	 
+	<span class="cp">#define nl "\n"
+</span>	 
+	<span class="k">const</span> <span class="kt">int</span> <span class="n">N</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="mf">1e5</span> <span class="o">+</span> <span class="mi">2</span><span class="p">;</span>
+	<span class="k">const</span> <span class="kt">int</span> <span class="n">mod</span> <span class="o">=</span> <span class="mf">1e9</span> <span class="o">+</span> <span class="mi">7</span><span class="p">;</span>
+	 
+	<span class="kt">int</span> <span class="n">smalla</span> <span class="o">=</span> <span class="mi">97</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">biga</span> <span class="o">=</span> <span class="mi">65</span><span class="p">;</span>
+	 
+	 
+	<span class="kt">void</span> <span class="nf">solve</span><span class="p">()</span>
+	<span class="p">{</span>
+	    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+	    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
+	 
+	    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+	    <span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="o">&amp;</span> <span class="n">x</span><span class="o">:</span><span class="n">v</span><span class="p">)</span>
+	        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
+	 
+	    <span class="kt">int</span> <span class="n">mx</span> <span class="o">=</span> <span class="o">*</span><span class="n">max_element</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+	    <span class="kt">int</span> <span class="n">mn</span> <span class="o">=</span> <span class="o">*</span><span class="n">min_element</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+	 
+	    <span class="kt">int</span> <span class="n">l</span> <span class="o">=</span> <span class="n">mn</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="n">mx</span><span class="p">;</span>
+	 
+	    <span class="k">auto</span> <span class="n">calc</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span> <span class="n">c</span><span class="p">){</span>
+	        <span class="n">ll</span> <span class="n">cost</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	        <span class="k">for</span><span class="p">(</span><span class="k">auto</span> <span class="n">x</span><span class="o">:</span><span class="n">v</span><span class="p">)</span>
+	            <span class="n">cost</span> <span class="o">+=</span> <span class="n">abs</span><span class="p">(</span><span class="n">c</span><span class="o">-</span><span class="n">x</span><span class="p">);</span>
+	        <span class="k">return</span> <span class="n">cost</span><span class="p">;</span>
+	    <span class="p">};</span>
+	    
+	    <span class="k">while</span><span class="p">(</span><span class="n">h</span> <span class="o">-</span> <span class="n">l</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">)</span>
+	    <span class="p">{</span>
+	        <span class="kt">int</span> <span class="n">lh</span> <span class="o">=</span> <span class="n">l</span> <span class="o">+</span> <span class="p">(</span><span class="n">h</span><span class="o">-</span><span class="n">l</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span><span class="p">;</span>
+	        <span class="kt">int</span> <span class="n">hl</span> <span class="o">=</span> <span class="n">h</span> <span class="o">-</span> <span class="p">(</span><span class="n">h</span><span class="o">-</span><span class="n">l</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span><span class="p">;</span>
+	 
+	        <span class="k">if</span><span class="p">(</span><span class="n">calc</span><span class="p">(</span><span class="n">lh</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">calc</span><span class="p">(</span><span class="n">hl</span><span class="p">))</span>
+	            <span class="n">l</span> <span class="o">=</span> <span class="n">lh</span><span class="p">;</span>
+	        <span class="k">else</span>
+	            <span class="n">h</span> <span class="o">=</span> <span class="n">hl</span><span class="p">;</span>
+	    <span class="p">}</span> 
+	 
+	    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">calc</span><span class="p">(</span><span class="n">l</span> <span class="o">+</span> <span class="p">(</span><span class="n">h</span><span class="o">-</span><span class="n">l</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">nl</span><span class="p">;</span>
+	<span class="p">}</span>
+	   
+	<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+	 
+	    <span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+	    <span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+	 
+	    <span class="kt">int</span> <span class="n">t</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+	    <span class="c1">// cin&gt;&gt;t;</span>
+	 
+	    <span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+	 
+	    <span class="k">while</span><span class="p">(</span><span class="n">t</span><span class="o">--</span><span class="p">)</span>
+	    <span class="p">{</span>
+	        <span class="c1">// cout &lt;&lt; "Case #" &lt;&lt; c &lt;&lt;": " ;</span>
+	 
+	        <span class="n">solve</span><span class="p">();</span>
+	        <span class="n">c</span><span class="o">++</span><span class="p">;</span>
+	    <span class="p">}</span>
+	<span class="p">}</span>
+
+	</code></pre></figure>
+
+:ET

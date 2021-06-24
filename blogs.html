@@ -2,8 +2,7 @@
 layout: default
 title: Blogs
 banner_text: Blogs
-banner_disc: Here is some links for the some of my blogs written on other site like medium. Hope you find it useful.
-<!-- banner_img: /assets/images/undraw_maker_launch_crhe.svg -->
+<!-- banner_disc: Here is some links for the some of my blogs written on other site like medium. Hope you find it useful. -->
 banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
 ---
 
@@ -13,21 +12,23 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
 
 
 
-    {% for post in site.posts %}
-    <div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="col">
+        {% for post in site.posts %}
+        <div class="row">
 
-        <article class="media content-section">
-            <div class="media-body">
-                <div class="article-metadata">
-                    {{ post.author }}
-                    <small class="text-muted">{{ post.date | date_to_string }}</small>
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        {{ post.author }}
+                        <small class="text-muted">{{ post.date | date_to_string }}</small>
+                    </div>
+                    <h2><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="article-content">{{ post.excerpt }}</p>
                 </div>
-                <h2><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h2>
-                <p class="article-content">{{ post.excerpt }}</p>
-            </div>
-        </article>
-    </div>
+            </article>
+        </div>
 
-    {% endfor %}
+        {% endfor %}
+    </div>
 
 </div>
