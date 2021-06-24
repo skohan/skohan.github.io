@@ -1,0 +1,32 @@
+---
+layout: my_default
+title: cses.fi
+---
+
+
+<div class="container marketing" style="max-width: 900px;">
+
+
+
+    <div class="col">
+
+        {% for post in site.categories.cses-fi %}
+        <div class="row">
+
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        {{ post.author }}
+                        <small class="text-muted">{{ post.date | date_to_string }}</small>
+                    </div>
+                    <h2><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="article-content">{{ post.excerpt }}</p>
+                </div>
+            </article>
+        </div>
+        <hr>
+
+        {% endfor %}
+    </div>
+
+</div>

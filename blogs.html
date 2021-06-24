@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: my_default
 title: Blogs
 banner_text: Blogs
 <!-- banner_disc: Here is some links for the some of my blogs written on other site like medium. Hope you find it useful. -->
@@ -7,13 +7,27 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
 ---
 
 
-<div class="container marketing">
+<div class="container marketing" style="max-width: 900px;">
     {% include banner.html %}
 
 
 
     <div class="col">
-        {% for post in site.posts %}
+        <div class="row">
+        
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+        
+                        <small class="text-muted"></small>
+                    </div>
+                    <h2><a class="article-title" href="/pages/cses-fi-blogs.html">CSES-FI Solutions</a></h2>
+                    <p class="article-content">Solutions to cses.fi problems set</p>
+                </div>
+            </article>
+        </div>
+        <hr>
+        {% for post in site.categories.posts %}
         <div class="row">
 
             <article class="media content-section">
@@ -27,6 +41,7 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
                 </div>
             </article>
         </div>
+        <hr>
 
         {% endfor %}
     </div>
