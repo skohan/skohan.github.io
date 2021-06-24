@@ -9,7 +9,12 @@ tags: cses-fi sorting-and-searching
     <a href="{{page.link}}">{{page.link}}</a>
 </div>
 <br>
-<div>References: {{page.references}}</div>
+<div>
+    References: 
+    {% for ref in page.references %}
+        <a href="{{ref}}">{{ref}}</a> <br>
+    {% endfor %}
+</div>
 <br>
 
 <h1> Explanation</h1>

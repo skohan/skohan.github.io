@@ -6,14 +6,10 @@ link: https://cses.fi/problemset/task/2216/
 excerpt: problem link <a href="https://cses.fi/problemset/task/2216/">https://cses.fi/problemset/task/2216/</a>
 category: cses-fi sorting-and-searching
 tags: cses-fi sorting-and-searching
-explaination: First we sort the all the `n` elements.<br><br>
-    We declare a varible `sum` which represents, from 0 to `sum` we can create the sum of coins. 
-    Initially, `sum` is 0, ie we don't take any element from array.<br><br>
-    Now we iterate through the **sorted** array. For each element x in the array, since `sum` represents maximum summation we can get from previously taken array elements, we can get summation upto ``sum + x`` **iff** `x <= sum`. Otherwise, there would not be any combination which could sum up to from `sum` to `0 + x`, and smallest one among those will obiviously be `sum`.
-    
-references:
----
+explaination: Given array `arr`, we create a new array whose `i`th element represents index of `i` in `arr`. <br> <br> Now in new array, if value of `i`th element ( that is the index of `i` in `arr` ) is greater than `i+1`, then we have to do another round for collecting that number.
 
+references: []
+---
 
 
 {% highlight c++ %}
