@@ -2,11 +2,13 @@
 layout: post
 author: skohan
 link: 
+category: 
+tags: 
 ---
 
 problem link: [{{page.link}}]({{page.link}})
 
-refernces: [Ternary search](https://www.geeksforgeeks.org/ternary-search/)
+refernces:
 
 
 ### Explanation

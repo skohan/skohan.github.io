@@ -1,7 +1,8 @@
 ---
 layout: post
 author: skohan
-category: cses-fi
+category: cses-fi sorting-and-searching
+tags: cses-fi sorting-and-searching
 link: "https://cses.fi/problemset/task/1629/"
 ---
 

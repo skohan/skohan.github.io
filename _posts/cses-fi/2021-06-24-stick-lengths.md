@@ -1,10 +1,12 @@
 ---
 layout: post
 author: skohan
-category: cses-fi
+link: https://cses.fi/problemset/task/1074/
+category: cses-fi sorting-and-searching
+tags: cses-fi sorting-and-searching
 ---
 
-problem link: [Stikcy length](https://cses.fi/problemset/task/1074/)
+problem link: [{{page.link}}]({{page.link}})
 
 refernces: [Ternary search](https://www.geeksforgeeks.org/ternary-search/)
 

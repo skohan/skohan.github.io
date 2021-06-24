@@ -2,6 +2,8 @@
 layout: post
 author: skohan
 link: https://cses.fi/problemset/task/1640/
+category: cses-fi sorting-and-searching
+tags: cses-fi sorting-and-searching
 ---
 
 problem link: [{{page.link}}]({{page.link}})
