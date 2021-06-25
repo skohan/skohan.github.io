@@ -1,7 +1,6 @@
 ---
 excerpt_separator: \\
 
-
 layout: cses-fi
 author: skohan
 link: https://cses.fi/problemset/task/1666
