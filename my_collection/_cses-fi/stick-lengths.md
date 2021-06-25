@@ -3,8 +3,8 @@ layout: post
 author: skohan
 date: 2021-06-24
 link: https://cses.fi/problemset/task/1074/
-category: cses-fi sorting-and-searching
-tags: cses-fi sorting-and-searching
+category: sorting-and-searching
+tags: cses-fi 
 ---
 
 problem link: [{{page.link}}]({{page.link}})

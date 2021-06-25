@@ -5,8 +5,8 @@ author: skohan
 date: 2021-06-24
 link: https://cses.fi/problemset/task/2216/
 excerpt: problem link <a href="https://cses.fi/problemset/task/2216/">https://cses.fi/problemset/task/2216/</a>
-category: cses-fi sorting-and-searching
-tags: cses-fi sorting-and-searching
+category: sorting-and-searching
+tags: cses-fi
 explaination: Given array `arr`, we create a new array whose `i`th element represents index of `i` in `arr`. <br> <br> Now in new array, if value of `i`th element ( that is the index of `i` in `arr` ) is greater than `i+1`, then we have to do another round for collecting that number.
 
 references: []
