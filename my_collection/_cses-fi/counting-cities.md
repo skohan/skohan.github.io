@@ -14,10 +14,6 @@ explaination: Simple BFS can solve the problem, but here I have implemented `dis
 references: [https://cp-algorithms.com/data_structures/disjoint_set_union.html]
 ---
 
-{% for tag in page.tags %}
-# {{tag}}
-{% endfor %}
-
 {% highlight c++ %}
 
 #include<bits/stdc++.h>
