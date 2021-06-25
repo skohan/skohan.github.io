@@ -8,7 +8,7 @@ category: cses-fi sorting-and-searching
 tags: cses-fi sorting-and-searching
 explaination: This is explaination
     
-references: 
+references: []
 ---
 
 
