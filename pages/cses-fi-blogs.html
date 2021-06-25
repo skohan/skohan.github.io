@@ -9,8 +9,8 @@ title: cses.fi
 
 
     <div class="col">
-
-        {% for post in site.tags.cses-fi %}
+        {% assign sorted = site.cses-fi | sort: 'date' | reverse %}
+        {% for post in sorted %}
         <div class="row">
 
             <article class="media content-section">

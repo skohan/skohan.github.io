@@ -3,17 +3,20 @@ excerpt_separator: \\
 
 layout: cses-fi
 author: skohan
+date: 2021-06-25
 link: https://cses.fi/problemset/task/1666
 excerpt: problem link <a href="https://cses.fi/problemset/task/1666">https://cses.fi/problemset/task/1666</a>
-category: cses-fi graph-algorithms
-tags: cses-fi graph-algorithms
+category: [cses-fi, graph-algorithms]
+tags: [cses-fi, graph-algorithms]
 explaination: Simple BFS can solve the problem, but here I have implemented `disjoint union set` (union find and union)
     This method checks how many different groups of cities are connected. And then connects ( prints ) any one of the city from a group and connects it to next group till all groups are conncected.
     
 references: [https://cp-algorithms.com/data_structures/disjoint_set_union.html]
 ---
 
-
+{% for tag in page.tags %}
+# {{tag}}
+{% endfor %}
 
 {% highlight c++ %}
 

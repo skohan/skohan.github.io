@@ -3,6 +3,7 @@ layout: post
 author: skohan
 category: cses-fi sorting-and-searching
 tags: cses-fi sorting-and-searching
+date: 2021-06-22
 link: "https://cses.fi/problemset/task/1629/"
 ---
 

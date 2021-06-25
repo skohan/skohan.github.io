@@ -2,6 +2,7 @@
 layout: cses-fi
 excerpt_separator: \\
 author: skohan
+date: 2021-06-24
 link: https://cses.fi/problemset/task/2216/
 excerpt: problem link <a href="https://cses.fi/problemset/task/2216/">https://cses.fi/problemset/task/2216/</a>
 category: cses-fi sorting-and-searching

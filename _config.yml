@@ -27,6 +27,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: twitter
 github_username:  skohan
 
+collections_dir: my_collection
+collections:
+  medium:
+    output: true
+
+  cses-fi:
+    output: true
+    sort_by: date
+
 # Build settings
 theme: minima
 plugins:
