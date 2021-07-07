@@ -5,12 +5,12 @@
 
 - name: Game of Life
   description: Game of Life, which is a zero player game, is defined by some simple rules and can create some astonishing patterns! I gave try to create the simulation of the game.
-  link: https://sokhan.github.io/game-of-life/
+  link: https://skohan.github.io/game-of-life/
 
 
 - name: CoronaStat
   description: Note APIs might get down anytime, so app may not work in such cases. A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
-  link: https://sokhan.github.io/CoronaStat/
+  link: https://skohan.github.io/CoronaStat/
 
 - name: Custom Url Shortner Using Django
   description: A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap.Visit the website to learn more. 
