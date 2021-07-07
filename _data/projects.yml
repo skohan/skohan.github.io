@@ -3,6 +3,11 @@
   description: A website made in Django for solving algorithmic problems. User can login, create account and submit their code solutions to the site. And the code can be tested on multiple test cases and candidate can be scored accordingly.
   link: https://competitivecoding.herokuapp.com/
 
+- name: Game of Life
+  description: Game of Life, which is a zero player game, is defined by some simple rules and can create some astonishing patterns! I gave try to create the simulation of the game.
+  link: https://sokhan.github.io/game-of-life/
+
+
 - name: CoronaStat
   description: Note APIs might get down anytime, so app may not work in such cases. A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
   link: https://sokhan.github.io/CoronaStat/
@@ -16,7 +21,7 @@
   link: https://bdaproject.herokuapp.com/
 
 - name: Virtual bank
-  description: The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
+  description: Second year CS project. The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
   link: https://punabank.herokuapp.com/
 
 - name: Todo App
