@@ -25,6 +25,7 @@
 
 <body>
 
+  <audio id="error"  src="assets/audio/xp_error.mp3" preload="auto"></audio>
 
   <h1>404 Page not found :(</h1>
   <button onclick="okButton()">
@@ -34,8 +35,14 @@
 
   <script>
 
-    var errorAudio = new Audio('assets/audio/xp_error.mp3');
-    errorAudio.play();  
+    // document.addEventListener('DOMContentLoaded', function () {
+    //   var errorAudio = new Audio('assets/audio/xp_error.mp3');
+    //   errorAudio.play();
+    // });
+
+    window.onload = function () {
+      document.getElementById("error").play();
+    }
 
     okButton = function () {
       console.log("Shutting down");
