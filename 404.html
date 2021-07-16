@@ -1,25 +1,56 @@
----
-permalink: /404.html
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
 
-<div class="container">
-  <h1>404</h1>
+  <style>
+    body {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+      opacity: 1.0;
+      transition: opacity 2000ms linear;
+      transition: background-color 1000ms linear;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <h1>404 Page not found :(</h1>
+  <button onclick="okButton()">
+    OK
+  </button>
+
+
+  <script>
+
+    var errorAudio = new Audio('assets/audio/xp_error.mp3');
+    errorAudio.play();  
+
+    okButton = function () {
+      console.log("Shutting down");
+      var shutdownAudio = new Audio('assets/audio/xp_shutdown.mp3')
+      shutdownAudio.play();
+
+      bodyStyle = document.body.style;
+      bodyStyle.opacity = 0;
+      bodyStyle.backgroundColor = "black";
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
