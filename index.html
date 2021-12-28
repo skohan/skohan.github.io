@@ -1,77 +1,68 @@
----
-layout: base
-title: skohan
-contact_me: https://linkedin.com/in/sohan-kale
-exclude: True
----
+--- layout: base title: skohan contact_me: https://linkedin.com/in/sohan-kale exclude: True ---
 
 <link rel="stylesheet" href="/assets/css/cover.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 
 <style>
-  body {
-    background: url("/assets/images/813877.jpg");
-    background-size: cover;
-    font-family: 'Ubuntu', serif;
-  }
+    body {
+        background: url("/assets/images/813877.jpg");
+        background-size: cover;
+        font-family: 'Ubuntu', serif;
+    }
 </style>
 
 
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
 
-  <header class="masthead mb-auto">
+    <header class="masthead mb-auto">
 
-    <div class="inner">
-      <h3 class="masthead-brand">@skohan</h3>
+        <div class="inner">
+            <h3 class="masthead-brand">@skohan</h3>
 
-      <nav class="nav nav-masthead justify-content-center">
-        {% for item in site.data.navigation %}
+            <nav class="nav nav-masthead justify-content-center">
+                {% for item in site.data.navigation %}
 
-        <a href="{{ item.link }}" {% if page.url==item.link %} class="active nav-link" {%else%} class="nav-link"
-          {%endif%}>{{
-          item.name }}</a>
+                <a href="{{ item.link }}" {% if page.url==item.link %} class="active nav-link" {%else%} class="nav-link" {%endif%}>{{
+          item.name }}</a> {% endfor %}
+                <a class="nav-link" href="{{page.contact_me}}">Contact Me</a>
+            </nav>
 
-        {% endfor %}
-        <a class="nav-link" href="{{page.contact_me}}">Contact Me</a>
-      </nav>
+        </div>
 
-    </div>
+    </header>
 
-  </header>
+    <main role="main" class="inner cover">
 
-  <main role="main" class="inner cover">
+        <h1 class="cover-heading">Namaste! </h1>
 
-    <h1 class="cover-heading">Namaste! </h1>
-
-    <p class="lead">
-      A student developer. Amatuer philosopher.
-      <a class="text-info" href="https://ohmysahyadri.ml">
+        <p class="lead">
+            A student developer. Amatuer philosopher.
+            <a class="text-info" href="https://ohmysahyadri.github.io/">
         Explorer.
-      </a>
-      Have a great life!
-    </p>
+      </a> Have a great life!
+        </p>
 
-    <!-- <p class="lead">
+        <!-- <p class="lead">
       <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
     </p> -->
-    <p class="lead">
-      <br>
-    </p>
+        <p class="lead">
+            <br>
+        </p>
 
 
-    <div class="”row">
-      {%include links.html %}
-    </div>
+        <div class="”row">
+            {%include links.html %}
+        </div>
 
-  </main>
+    </main>
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <!-- <p>hosted on <a href="https://twitter.com/github">@github</a></p>
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <!-- <p>hosted on <a href="https://twitter.com/github">@github</a></p>
       <p>powered by <a href="https://getbootstrap.com/">@bootstrap</a> & <a
           href="https://twitter.com/jekyllrb?lang=en">@Jekyll</a></p> -->
-    </div>
-  </footer>
+        </div>
+    </footer>
 
 </div>
