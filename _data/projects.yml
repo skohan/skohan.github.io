@@ -3,6 +3,10 @@
   description: A website made in Django for solving algorithmic problems. User can login, create account and submit their code solutions to the site. And the code can be tested on multiple test cases and candidate can be scored accordingly.
   link: https://competitivecoding.herokuapp.com/
 
+- name: Pastebin
+  description: Website to paste and share text and code snippets for free. Made using django, python, sqlite.
+  link: http://paste2share.herokuapp.com/
+
 - name: Game of Life
   description: Game of Life, which is a zero player game, is defined by some simple rules and can create some astonishing patterns! I gave try to create the simulation of the game.
   link: https://skohan.github.io/game-of-life/
