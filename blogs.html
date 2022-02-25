@@ -12,22 +12,37 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
 
 
 
-    <div class="col">
+    <div class="col mt-5">
         <div class="row">
-        
             <article class="media content-section">
                 <div class="media-body">
                     <div class="article-metadata">
         
                         <small class="text-muted"></small>
                     </div>
-                    <h2><a class="article-title" href="/pages/cses-fi-blogs.html">CSES-FI Solutions</a></h2>
+                    <h3><a class="article-title" href="/pages/cses-fi-blogs.html">CSES-FI Solutions</a></h3>
                     <p class="article-content">Solutions to cses.fi problems set</p>
+                </div>
+            </article>
+        <hr>
+            <article class="media content-section">
+                <div class="media-body">
+                    <h3>
+                        <a class="article-title" 
+                            href="https://skohan.medium.com"
+                            target="_blank" rel="noopener noreferrer" 
+                            >
+                            Medium Posts
+                        </a>
+                    </h3>
+                    <p class="article-content">Technology blogs posted on Medium.com</p>
                 </div>
             </article>
         </div>
         <hr>
-        {% for post in site.medium %}
+
+
+        {% for post in site.blogs %}
         <div class="row">
             <article class="media content-section">
                 <div class="media-body">
@@ -35,7 +50,7 @@ banner_img: /assets/images/undraw_Blog_post_re_fy5x.svg
                         {{ post.author }}
                         <small class="text-muted">{{ post.date | date_to_string }}</small>
                     </div>
-                    <h2><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h3><a class="article-title" href="{{ post.url }}">{{ post.title }}</a></h3>
                     <p class="article-content">{{ post.excerpt }}</p>
                 </div>
             </article>

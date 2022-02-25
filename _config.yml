@@ -29,6 +29,11 @@ github_username:  skohan
 
 collections_dir: my_collection
 collections:
+
+  blogs:
+    output: true
+    sort_by: date
+
   medium:
     output: true
 
