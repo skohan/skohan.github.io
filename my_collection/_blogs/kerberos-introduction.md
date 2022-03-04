@@ -1,7 +1,6 @@
 ---
 layout: post
 author: skohan
-date: 
 category: posts
 excerpt: Quick introduction to kerberos and how it works
 ---
