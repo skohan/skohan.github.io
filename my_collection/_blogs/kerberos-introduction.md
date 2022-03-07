@@ -1,6 +1,7 @@
 ---
 layout: post
 author: skohan
+date: 2022-03-04
 category: posts
 excerpt: Quick introduction to kerberos and how it works
 ---
@@ -35,7 +36,7 @@ KDC (Key Distribution Center) has
 
 - AS search up userId and fetches password to decrypt request. After veryfing client, it sends TGT (Ticket Granting Ticket) encrypted with SK1 (Secret Key 1). This secret key is shared between AS and TGS.
 
-- Client sends TGS along with request (like to access file server or any other service) to TGS. TGS decrypts the TGT with SK1 and validates the request.
+- Client sends TGT along with request (like to access file server or any other service) to TGS. TGS decrypts the TGT with SK1 and validates the request.
 
 - TGS issues client a token encrypted with SK2 (Secret Key 2).
 TGS and File server shares same secret key.
@@ -46,7 +47,7 @@ TGS and File server shares same secret key.
 
 ## Limitation:
 
-- Doesn&#x27;t work well in timeshared environment
+- Does not work well in timeshared environment
 - All passwords with single key
 
 

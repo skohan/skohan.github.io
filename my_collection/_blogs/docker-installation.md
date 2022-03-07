@@ -1,6 +1,7 @@
 ---
 layout: post
 author: skohan
+date: 2022-02-25
 category: posts
 excerpt: Steps to install docker on ubuntu linux
 ---
