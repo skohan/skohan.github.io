@@ -3,6 +3,10 @@
   description: A website made in Django for solving algorithmic problems. User can login, create account and submit their code solutions to the site. And the code can be tested on multiple test cases and candidate can be scored accordingly.
   link: https://competitivecoding.herokuapp.com/
 
+- name: Wordle Solver
+  description: Work In Progress. Python script to solve worlde problems
+  link: https://github.com/skohan/wordle-solver
+
 - name: Pastebin
   description: Website to paste and share text and code snippets for free. Made using django, python, sqlite.
   link: http://paste2share.herokuapp.com/
