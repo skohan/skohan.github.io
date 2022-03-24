@@ -1,0 +1,5 @@
+{% for link in site.data.links %}
+<div class="btn btn-lg">
+    <a href="{{link.link}}" target="_blank" rel="noopener noreferrer" class="fa fa-{{link.icon}}"></a>
+</div>
+{% endfor %}

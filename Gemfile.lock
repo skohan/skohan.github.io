@@ -43,6 +43,10 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-soopr-seo-tag (2.7.3)
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
@@ -76,7 +80,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 4.2.0)
+  jekyll-feed (~> 0.12)
+  jekyll-seo-tag
+  jekyll-sitemap
   moonwalk!
+  tzinfo (~> 1.2)
+  tzinfo-data
+  wdm (~> 0.1.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.21

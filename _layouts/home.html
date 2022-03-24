@@ -4,7 +4,7 @@ layout: default
 
 <header>
 {% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  {% include horizontal_list.html collection=site.data.navigation %}
   <div class="dashed"></div>
 {% endif %}
 
@@ -18,7 +18,7 @@ layout: default
 
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
+  {% include card_list.html collection=site.data.projects %}
 {% endif %}
 
 {% if site.theme_config.show_misc_list == true %}

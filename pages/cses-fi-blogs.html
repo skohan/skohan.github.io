@@ -1,0 +1,13 @@
+---
+layout: default
+title: cses.fi
+---
+<!-- <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a> -->
+
+<header>
+  {% include navigation.html %}
+  <h1>{{ site.title }}</h1>
+
+</header>
+
+{% include post_list_parameterize.html collection=site.cses-fi %}

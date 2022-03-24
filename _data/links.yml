@@ -1,0 +1,20 @@
+
+- name: Github
+  icon: github
+  link: https://github.com/skohan
+
+- name: LinkedIn
+  icon: linkedin
+  link: https://www.linkedin.com/in/sohan-kale/
+
+- name: YouTube
+  icon: youtube
+  link: https://www.youtube.com/channel/UC4U6Lm-iwpLyeGhD7MmeNvw
+
+- name: Medium
+  icon: medium
+  link: https://skohan.medium.com/
+
+- name: Instagram
+  icon: instagram
+  link: https://instagram.com/sohanware

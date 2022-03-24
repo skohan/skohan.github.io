@@ -1,0 +1,43 @@
+
+- title: Coding Competition
+  desc: A website made in Django for solving algorithmic problems. User can login, create account and submit their code solutions to the site. And the code can be tested on multiple test cases and candidate can be scored accordingly.
+  url: https://competitivecoding.herokuapp.com/
+
+- title: Wordle Solver
+  desc: Work In Progress. Python script to solve worlde problems
+  url: https://github.com/skohan/wordle-solver
+  highlight: WIP
+
+- title: Pastebin
+  desc: Website to paste and share text and code snippets for free. Made using django, python, sqlite.
+  url: http://paste2share.herokuapp.com/
+
+- title: Game of Life
+  desc: Game of Life, which is a zero player game, is defined by some simple rules and can create some astonishing patterns! I gave try to create the simulation of the game.
+  url: https://skohan.github.io/game-of-life/
+
+
+- title: CoronaStat
+  desc: Note APIs might get down anytime, so app may not work in such cases. A flutter android app/webapp for showcasing current number of corona virus cases all over the world. You also can see data of individual country and graphical representation of data.
+  url: https://skohan.github.io/CoronaStat/
+  highlight: Discontinued
+
+- title: Custom Url Shortner Using Django
+  desc: A custom URL shortner to short your big urls and give them meaningful context in URL. Made with Django and PostgreSQL as backend and Bootstrap.Visit the website to learn more. 
+  url: https://chorty.herokuapp.com/
+
+- title: Diabetes predictor
+  desc: The third year first semester project for big data analysis subject. A site to predict the diabetes of the patients, given the appropriate inputs. It uses Random Forest under the hood for prediction
+  url: https://bdaproject.herokuapp.com/
+
+- title: Virtual bank
+  desc: Second year CS project. The Puna Bank! A virtual online bank without any infrastructure made in Python Flask framework, html, css and backend with SQLalchemy with feature like login, signup and cash transfer.
+  url: https://punabank.herokuapp.com/
+
+- title: Todo App
+  desc: First time using bloc pattern in flutter framework. It is a Todo app and webapp made in flutter.
+  url: https://sokhan.github.io/ToDoList/website/
+
+- title: A Snake Game
+  desc: A open source project. Initially I implemented Snake game in python using Pygame library and C++ using SDL. Now because of support from Open Source, it is available in other languages too.You can check out the source code on github.
+  url: https://github.com/skohan/Snake-game

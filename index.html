@@ -1,0 +1,124 @@
+---
+exclude: True
+---
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    {% feed_meta %}
+    {% seo %}
+</head>
+
+<body >
+
+
+    <link rel="stylesheet" href="/assets/css/cover.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    
+    <style>
+      body {
+        background: url("/assets/images/813877.jpg");
+        background-size: cover;
+        font-family: 'Ubuntu', serif;
+      }
+    </style>
+    
+    
+    
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+    
+      <header class="masthead mb-auto">
+    
+        <div class="inner">
+          <h3 class="masthead-brand">@skohan</h3>
+    
+          <nav class="nav nav-masthead justify-content-center">
+            {% for item in site.data.navigation %}
+    
+            <a href="{{ item.url }}" {% if page.url==item.url %} class="active nav-link" {%else%} class="nav-link"
+              {%endif%}>
+              {{ item.title }}</a>
+    
+            {% endfor %}
+            <a class="nav-link" href="https://www.linkedin.com/in/sohan-kale/" 
+              target="_blank" rel="noopener noreferrer" > contact-me </a>
+          </nav>
+    
+        </div>
+    
+      </header>
+    
+      <main role="main" class="inner cover">
+    
+        <h1 class="cover-heading">Namaste! </h1>
+    
+        <p class="lead">
+          A student developer. Amatuer philosopher.
+          <a class="text-info" href="https://ohmysahyadri.ml">
+            Explorer.
+          </a>
+          Have a great life!
+        </p>
+    
+        <!-- <p class="lead">
+          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+        </p> -->
+        <p class="lead">
+          <br>
+        </p>
+    
+    
+        <div class="”row">
+          {% include links.html %}
+        </div>
+    
+      </main>
+    
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <!-- <p>hosted on <a href="https://twitter.com/github">@github</a></p>
+          <p>powered by <a href="https://getbootstrap.com/">@bootstrap</a> & <a
+              href="https://twitter.com/jekyllrb?lang=en">@Jekyll</a></p> -->
+        </div>
+      </footer>
+    
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+    {% if jekyll.environment == "production" %}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173651502-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173651502-1');
+    </script>
+
+    {% endif %}
+</body>
+
+</html>
