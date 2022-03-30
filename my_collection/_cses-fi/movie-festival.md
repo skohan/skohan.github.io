@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cses-fi
 author: skohan
 category: sorting-and-searching
 tags: cses-fi 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cses-fi
 author: skohan
 date: 2021-06-24
 link: https://cses.fi/problemset/task/2183

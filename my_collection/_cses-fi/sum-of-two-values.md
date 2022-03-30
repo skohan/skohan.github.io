@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cses-fi
 author: skohan
 date: 2021-06-24
 link: https://cses.fi/problemset/task/1640/
@@ -19,5 +19,5 @@ Sort the array in O(NlogN) and then iterate through the array. For each element 
 
 
 ```cpp
-
+// Write by yourself
 ```
