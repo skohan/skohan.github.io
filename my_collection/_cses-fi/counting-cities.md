@@ -6,15 +6,15 @@ date: 2021-06-28
 link: https://cses.fi/problemset/task/1666
 excerpt: problem link <a href="https://cses.fi/problemset/task/1666">https://cses.fi/problemset/task/1666</a>
 category: graph-algorithms
-explaination: Simple BFS can solve the problem, but here I have implemented `disjoint union set` (union find and union)
-
-    This method checks how many different groups of cities are connected. And then connects ( prints ) any one of the city from a group and connects it to next group till all groups are conncected.
+explaination: >
+ Simple BFS can solve the problem, but here I have implemented `disjoint union set` (union find and union)
+ This method checks how many different groups of cities are connected. And then connects ( prints ) any one of the city from a group and connects it to next group till all groups are conncected.
 
 references: 
 ---
 
 
-{% highlight c++ %}
+```cpp
 
 #include<bits/stdc++.h>
  
@@ -134,7 +134,7 @@ int main(){
 }
 
 
-{% endhighlight %}
+```
 
 
 

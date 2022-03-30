@@ -26,7 +26,7 @@ Now we iterate through the **sorted** array. For each element x in the array, si
 ### Code
 
 
-{% highlight c++ %}
+```cpp
 
 #include <bits/stdc++.h>
  
@@ -92,4 +92,4 @@ int main(){
     }
 }
 
-{% endhighlight %}
+```

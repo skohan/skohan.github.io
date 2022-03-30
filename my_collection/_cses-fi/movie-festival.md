@@ -18,7 +18,7 @@ Simple greedy algorithm. First sort the movies in descreasing order of ending ti
 ### Code
 
 
-{% highlight c++ %}
+```cpp
 
 
 #include <bits/stdc++.h>
@@ -92,6 +92,6 @@ int main(){
 }
 
 
-{% endhighlight %}
+```
 
 

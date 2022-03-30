@@ -17,7 +17,7 @@ We apply ternary search between minimum height and maximum height to find optimu
 
 ### Code
 
-{% highlight c++ %}
+```cpp
 
 
 #include <bits/stdc++.h>
@@ -90,6 +90,6 @@ int main(){
 	}
 }
 
-{% endhighlight %}
+```
 
 

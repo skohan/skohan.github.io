@@ -18,8 +18,6 @@ Sort the array in O(NlogN) and then iterate through the array. For each element 
 ### Code
 
 
-{% highlight c++ %}
+```cpp
 
-{% endhighlight %}
-
-
+```

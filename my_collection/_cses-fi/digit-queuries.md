@@ -6,24 +6,25 @@ date: 2021-06-28
 link: https://cses.fi/problemset/task/2431/
 excerpt: problem link <a href="https://cses.fi/problemset/task/2431/">https://cses.fi/problemset/task/2431/</a>
 category: introductory
-explaination: The brute force algorithm is not effiecient cause the value of `k` can go upto 10^18.
-    We need algorithm of almost `O(logN)`. Instead of looping through every number,
-    we can skip the numbers which might not have the index. For example, for index `13`
-    we don't need to check for numbers from `1 to 9`, hence we skip them.
-
-
-    For current number of digits, which is `1` initially, we calculate how much indexes
-    will it cover. So, for numbers from `1 to 9`, they will cover indexes till 9.
-    We find the number of minimum digits required in number to reach up to index `k`.
-    Then we find the exact number which will include the `kth` index. And finally we
-    find the index from that number.
+explaination: >
+ The brute force algorithm is not effiecient cause the value of `k` can go upto 10^18.
+ We need algorithm of almost `O(logN)`. Instead of looping through every number,
+ we can skip the numbers which might not have the index. For example, for index `13`
+ we don't need to check for numbers from `1 to 9`, hence we skip them.
+ 
+ 
+ For current number of digits, which is `1` initially, we calculate how much indexes
+ will it cover. So, for numbers from `1 to 9`, they will cover indexes till 9.
+ We find the number of minimum digits required in number to reach up to index `k`.
+ Then we find the exact number which will include the `kth` index. And finally we
+ find the index from that number.
 
 references: []
 ---
 
 
 
-{% highlight python %}
+```cpp
 
 #!/usr/bin/env python3
 
@@ -74,4 +75,4 @@ for _ in range(t):
 
 
 
-{% endhighlight %}
+```
