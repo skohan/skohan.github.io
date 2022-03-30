@@ -22,7 +22,7 @@ layout: default
 </div>
 
 <h3> explanation</h3>
-{{ page.explaination }}
+{{ page.explaination | markdownify}}
 <h3>code</h3>
 {{ content }}
 {% include footer.html %}
