@@ -1,26 +1,20 @@
 ---
 layout: cses-fi
-author: skohan
 date: 2021-06-24
+author: skohan
 link: https://cses.fi/problemset/task/2183
 category: sorting-and-searching
 tags: cses-fi 
----
-
-problem link: [{{page.link}}]({{page.link}})
-
 refernces: 
 
+explaination: >
+ First we sort the all the `n` elements.
 
-### Explanation
+ We declare a varible `sum` which represents, from 0 to `sum` we can create the sum of coins. 
+ Initially, `sum` is 0, ie we don't take any element from array.
 
-First we sort the all the `n` elements.
-
-We declare a varible `sum` which represents, from 0 to `sum` we can create the sum of coins. 
-Initially, `sum` is 0, ie we don't take any element from array.
-
-Now we iterate through the **sorted** array. For each element x in the array, since `sum` represents maximum summation we can get from previously taken array elements, we can get summation upto sum + x **iff** `x <= sum`. Otherwise, there would not be any combination which could sum up to from `sum` to `0 + x`, and smallest one among those will obiviously be `sum`.
-
+ Now we iterate through the **sorted** array. For each element x in the array, since `sum` represents maximum summation we can get from previously taken array elements, we can get summation upto sum + x **iff** `x <= sum`. Otherwise, there would not be any combination which could sum up to from `sum` to `0 + x`, and smallest one among those will obiviously be `sum`.
+---
 
 
 ### Code

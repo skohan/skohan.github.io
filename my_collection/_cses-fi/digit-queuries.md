@@ -1,10 +1,8 @@
 ---
 layout: cses-fi
-excerpt_separator: \\
-author: skohan
 date: 2021-06-28
+author: skohan
 link: https://cses.fi/problemset/task/2431/
-excerpt: problem link <a href="https://cses.fi/problemset/task/2431/">https://cses.fi/problemset/task/2431/</a>
 category: introductory
 explaination: >
  The brute force algorithm is not effiecient cause the value of `k` can go upto 10^18.

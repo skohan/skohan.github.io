@@ -6,8 +6,6 @@ category: posts
 excerpt: Quick introduction to kerberos and how it works
 ---
 
-# Kerberos
-
 Used for Security and Authentication
 
 

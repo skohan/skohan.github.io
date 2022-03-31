@@ -1,21 +1,15 @@
 ---
 layout: cses-fi
-author: skohan
 date: 2021-06-24
+author: skohan
 link: https://cses.fi/problemset/task/1074/
 category: sorting-and-searching
 tags: cses-fi 
+references: ["https://www.geeksforgeeks.org/ternary-search/"]
+
+explaination: >
+ We apply ternary search between minimum height and maximum height to find optimum solution
 ---
-
-problem link: [{{page.link}}]({{page.link}})
-
-refernces: [Ternary search](https://www.geeksforgeeks.org/ternary-search/)
-
-
-### Explanation
-We apply ternary search between minimum height and maximum height to find optimum solution
-
-### Code
 
 ```cpp
 

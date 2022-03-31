@@ -6,8 +6,6 @@ category: posts
 excerpt: Steps to install docker on ubuntu linux
 ---
 
-# Docker Installation
-
 [Reference](https://docs.docker.com/engine/install/ubuntu/)
 
 ### System used

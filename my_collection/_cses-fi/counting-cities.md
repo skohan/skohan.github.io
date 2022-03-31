@@ -1,10 +1,8 @@
 ---
 layout: cses-fi
-excerpt_separator: \\
-author: skohan
 date: 2021-06-28
+author: skohan
 link: https://cses.fi/problemset/task/1666
-excerpt: problem link <a href="https://cses.fi/problemset/task/1666">https://cses.fi/problemset/task/1666</a>
 category: graph-algorithms
 explaination: >
  Simple BFS can solve the problem, but here I have implemented `disjoint union set` (union find and union)
