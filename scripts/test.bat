@@ -3,5 +3,6 @@
 @REM # command to start development server with live reload
 
 echo Starting server with live reload
+echo Drafts enabled
 
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --drafts

@@ -52,7 +52,7 @@ plugins:
 
 # About collections
 
-collections_dir: my_collection
+collections_dir: collection
 collections:
   blogs:
     output: true
