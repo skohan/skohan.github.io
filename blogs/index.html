@@ -1,0 +1,34 @@
+---
+layout: default
+title: Blogs
+---
+<!-- <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a> -->
+
+<header>
+  {% include navigation.html %}
+  <h1>{{ site.title }}</h1>
+
+</header>
+
+<div>
+  <h3 style="display:inline">
+    <a href="https://skohan.medium.com"
+    target="_blank" rel="noopener noreferrer"  
+    >medium.com</a>
+  </h3>
+  <p style="display: inline;padding-left: 50px;"></p>
+  <!-- <h3 style="display:inline">
+    <a href="/cses-fi">
+      cses-fi solutions
+    </a>
+  </h3> -->
+
+  <h4 style="display:inline"> <a href="categories"> Categories </a> </h4>
+  <p style="display: inline;padding-left: 50px;"></p>
+  <h4 style="display:inline"> <a href="tags"> Tags </a> </h4>
+</div>
+<!-- <hr> -->
+
+<div>
+  {% include post_list.html %}
+</div>

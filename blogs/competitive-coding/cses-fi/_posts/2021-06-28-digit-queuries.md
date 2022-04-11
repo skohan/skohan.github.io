@@ -3,7 +3,7 @@ layout: cses-fi
 date: 2021-06-28
 author: skohan
 link: https://cses.fi/problemset/task/2431/
-category: introductory
+tags: competitive-coding cses-fi
 explaination: >
  The brute force algorithm is not effiecient cause the value of `k` can go upto 10^18.
  We need algorithm of almost `O(logN)`. Instead of looping through every number,
@@ -19,7 +19,7 @@ explaination: >
 
 references: []
 ---
-
+<!-- more -->
 
 
 ```cpp

@@ -2,9 +2,11 @@
 layout: post
 author: skohan
 date: 2022-03-04
-category: posts
-excerpt: Quick introduction to kerberos and how it works
+tags: cloud
 ---
+
+Quick introduction to kerberos and how it works.
+<!-- more -->
 
 Used for Security and Authentication
 

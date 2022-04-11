@@ -150,8 +150,9 @@ html.transition *:after {
 mark {
   padding: 0.4em;
   background-color: var(--highlight);
-  font-size: 0.6em;
+  font-size: 0.65em;
   letter-spacing: 1px;
+  border-radius: 25px;
 }
 
 .post-date {

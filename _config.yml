@@ -7,6 +7,8 @@ description: > # description of the site (multiple lines allowed)
 permalink: /:slug
 
 favicon: "./favicon.ico" # relative path to site's favicon
+excerpt_separator: "<!-- more -->"
+permalink: pretty
 
 # twitter:
 #     username: whoissohan # update or delete this
@@ -52,12 +54,12 @@ plugins:
 
 # About collections
 
-collections_dir: collection
-collections:
-  blogs:
-    output: true
-    sort_by: date
+# collections_dir: collection
+# collections:
+#   blogs:
+#     output: true
+#     sort_by: date
 
-  cses-fi:
-    output: true
-    sort_by: date
+#   cses-fi:
+#     output: true
+#     sort_by: date

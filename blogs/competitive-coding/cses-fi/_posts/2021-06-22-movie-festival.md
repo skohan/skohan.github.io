@@ -2,8 +2,7 @@
 layout: cses-fi
 date: 2021-06-22
 author: skohan
-category: sorting-and-searching
-tags: cses-fi 
+tags: competitive-coding cses-fi
 link: "https://cses.fi/problemset/task/1629/"
 refernces: 
 
@@ -11,6 +10,8 @@ refernces:
 explaination: >
  Simple greedy algorithm. First sort the movies in descreasing order of ending time and then count the movies which are not overlapping with next one. If they are, skip the movie.
 ---
+<!-- more -->
+
 ### Code
 
 

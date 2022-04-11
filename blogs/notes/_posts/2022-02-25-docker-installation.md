@@ -2,9 +2,11 @@
 layout: post
 author: skohan
 date: 2022-02-25
-category: posts
-excerpt: Steps to install docker on ubuntu linux
+tags: docker cloud
 ---
+
+Steps to install docker on ubuntu linux
+<!-- more -->
 
 [Reference](https://docs.docker.com/engine/install/ubuntu/)
 

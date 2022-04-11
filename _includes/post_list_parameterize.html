@@ -11,6 +11,7 @@
         {{ post.date | date: site.theme_config.date_format }}»
       </span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>

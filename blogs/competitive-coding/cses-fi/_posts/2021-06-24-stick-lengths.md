@@ -3,13 +3,13 @@ layout: cses-fi
 date: 2021-06-24
 author: skohan
 link: https://cses.fi/problemset/task/1074/
-category: sorting-and-searching
-tags: cses-fi 
+tags: competitive-coding cses-fi
 references: ["https://www.geeksforgeeks.org/ternary-search/"]
 
 explaination: >
  We apply ternary search between minimum height and maximum height to find optimum solution
 ---
+<!-- more -->
 
 ```cpp
 

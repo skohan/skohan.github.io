@@ -3,8 +3,7 @@ layout: cses-fi
 date: 2021-06-24
 author: skohan
 link: https://cses.fi/problemset/task/2183
-category: sorting-and-searching
-tags: cses-fi 
+tags: competitive-coding cses-fi
 refernces: 
 
 explaination: >
@@ -16,6 +15,7 @@ explaination: >
  Now we iterate through the **sorted** array. For each element x in the array, since `sum` represents maximum summation we can get from previously taken array elements, we can get summation upto sum + x **iff** `x <= sum`. Otherwise, there would not be any combination which could sum up to from `sum` to `0 + x`, and smallest one among those will obiviously be `sum`.
 ---
 
+<!-- more -->
 
 ### Code
 
