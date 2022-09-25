@@ -34,69 +34,30 @@ exclude: True
     }
   </style>
 
-
-
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
 
     <header class="masthead mb-auto">
-
       <div class="inner">
         <h3 class="masthead-brand">@skohan</h3>
-
         <nav class="nav nav-masthead justify-content-center">
           {% for item in site.data.navigation %}
-
-          <a href="{{ item.url }}" {% if page.url==item.url %} class="active nav-link" {%else%} class="nav-link"
-            {%endif%}>
-            {{ item.title }}</a>
-
+            <a href="{{ item.url }}" {% if page.url==item.url %} class="active nav-link" {%else%} class="nav-link"
+              {%endif%}>
+              {{ item.title }}</a>
           {% endfor %}
-
         </nav>
-
       </div>
-
     </header>
 
     <main role="main" class="inner cover">
-
-      <h1 class="cover-heading">Namaste! </h1>
-
+      <h1 class="cover-heading">Namaste!</h1>
       <p class="lead">
-          A student developer. Amatuer philosopher.
+          Software Engineer. Amatuer philosopher.
           <a style="color:dodgerblue"  href="https://ohmysahyadri.github.io">
             Explorer.
           </a>
           Have a great life!
         </p>
-
-
-
-      <!-- <div class="lead">
-        <span class="codinfox-changing-keywords">
-          <b>
-            A student developer.
-          </b>
-          <b>
-            Amatuer philosopher.
-          </b>
-          <!-- <b class="hidden">
-            <a style="color:dodgerblue" href="https://ohmysahyadri.ml">
-              Explorer.
-            </a>
-          </b>
-          <b class="hidden">
-            Have a great life!
-          </b> -->
-        <!-- </span>
-      </div> --> 
-
-      <!-- <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p> -->
-
-
-
       <div class="”row">
         {% include links.html %}
       </div>
@@ -104,11 +65,11 @@ exclude: True
     </main>
 
     <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <!-- <p>hosted on <a href="https://twitter.com/github">@github</a></p>
+      <!-- <div class="inner">
+        <p>hosted on <a href="https://twitter.com/github">@github</a></p>
           <p>powered by <a href="https://getbootstrap.com/">@bootstrap</a> & <a
-              href="https://twitter.com/jekyllrb?lang=en">@Jekyll</a></p> -->
-      </div>
+              href="https://twitter.com/jekyllrb?lang=en">@Jekyll</a></p>
+      </div> -->
     </footer>
 
   </div>
