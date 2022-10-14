@@ -4,6 +4,9 @@ layout: default
 <!-- <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a> -->
 {% include navigation.html %}
 
+<mark>NOTE:</mark> Some website were hosted on heroku free plan, which the company has discontinued. 
+Those project links are updated to github source code.
+
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
   {% include card_list.html collection=site.data.projects %}
