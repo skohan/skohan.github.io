@@ -1,15 +1,14 @@
 ---
-layout: cses-fi
-date: 2021-06-24
+layout: post
 author: skohan
-link: https://cses.fi/problemset/task/1074/
 tags: competitive-coding cses-fi
-references: ["https://www.geeksforgeeks.org/ternary-search/"]
-
-explaination: >
- We apply ternary search between minimum height and maximum height to find optimum solution
 ---
 <!-- more -->
+
+Problem link: [https://cses.fi/problemset/task/1074/](https://cses.fi/problemset/task/1074/)
+
+### explaination
+ We apply ternary search between minimum height and maximum height to find optimum solution
 
 ```cpp
 
@@ -87,3 +86,4 @@ int main(){
 ```
 
 
+references: [https://www.geeksforgeeks.org/ternary-search/](https://www.geeksforgeeks.org/ternary-search/)
