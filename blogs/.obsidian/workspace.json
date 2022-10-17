@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/_posts/2022-02-25-docker-installation.md",
+                "file": "notes/_drafts/wordle-solver.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/_posts/2022-02-25-docker-installation.md",
+                "file": "notes/_drafts/wordle-solver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/_posts/2022-02-25-docker-installation.md",
+                "file": "notes/_drafts/wordle-solver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/_posts/2022-02-25-docker-installation.md"
+                "file": "notes/_drafts/wordle-solver.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "ce9e422dda57834b",
   "lastOpenFiles": [
+    "notes/_posts/2022-02-25-docker-installation.md",
     "notes/_drafts/wordle-solver.md",
     "notes/_drafts/new-flutter-backend-architecture.md",
     "competitive-coding/cses-fi/_posts/2021-06-22-movie-festival.md",
@@ -149,7 +150,6 @@
     "competitive-coding/cses-fi/_posts/2021-06-24-stick-lengths.md",
     "competitive-coding/cses-fi/_posts/2021-06-24-sum-of-two-values.md",
     "competitive-coding/cses-fi/_posts/2021-06-28-counting-cities.md",
-    "notes/_posts/2022-02-25-docker-installation.md",
     "competitive-coding/cses-fi/_posts/2021-06-28-digit-queuries.md"
   ]
 }
