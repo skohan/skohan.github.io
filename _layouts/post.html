@@ -4,9 +4,15 @@ layout: default
 
 <!-- <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a> -->
 <!-- {% include go_back.html %} -->
-<a href="{{ "/blogs" | relative_url }}">back..</a>
+<a href="{{ " /blogs" | relative_url }}">back..</a>
 
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
 {% include footer.html %}
+
+
+{% if page.usemathjax %}
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+{% endif %}
