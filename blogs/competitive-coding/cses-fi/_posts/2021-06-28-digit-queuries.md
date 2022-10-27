@@ -20,7 +20,7 @@ Problem link: [https://cses.fi/problemset/task/2431/](https://cses.fi/problemset
  Then we find the exact number which will include the `kth` index. And finally we
  find the index from that number.
 
-```cpp
+```python
 
 #!/usr/bin/env python3
 

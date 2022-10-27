@@ -3,4 +3,9 @@
 
 @import "moonwalk";
 @import "list";
-@import "syntax";
+@import "syntax-light";
+
+html[data-theme="dark"] {
+    @import "syntax-dark";
+}
+
