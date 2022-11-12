@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "6f8000e1696dc947",
+    "type": "split",
+    "children": [
+      {
+        "id": "986e826a5a509c31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce9e422dda57834b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/_drafts/wordle-solver.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "644de905c48b6667",
+    "type": "split",
+    "children": [
+      {
+        "id": "d68f98d54e9e6653",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af4b69682070ca5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c55fd83b8ee95e36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ec6c52876d2b7aa",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "right": {
+    "id": "100cd4e62226cead",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac234397446f2b32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "548179a73bbd786e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/_drafts/wordle-solver.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42ebf81211037d54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/_drafts/wordle-solver.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "55dd7b0a85bca5de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5150c1b7370f89a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/_drafts/wordle-solver.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "ce9e422dda57834b",
+  "lastOpenFiles": [
+    "notes/_posts/2022-02-25-docker-installation.md",
+    "notes/_drafts/wordle-solver.md",
+    "notes/_drafts/new-flutter-backend-architecture.md",
+    "competitive-coding/cses-fi/_posts/2021-06-22-movie-festival.md",
+    "competitive-coding/cses-fi/_posts/2021-06-24-collecting-numbers.md",
+    "competitive-coding/cses-fi/_posts/2021-06-24-missing-coin-sum.md",
+    "competitive-coding/cses-fi/_posts/2021-06-24-stick-lengths.md",
+    "competitive-coding/cses-fi/_posts/2021-06-24-sum-of-two-values.md",
+    "competitive-coding/cses-fi/_posts/2021-06-28-counting-cities.md",
+    "competitive-coding/cses-fi/_posts/2021-06-28-digit-queuries.md"
+  ]
+}

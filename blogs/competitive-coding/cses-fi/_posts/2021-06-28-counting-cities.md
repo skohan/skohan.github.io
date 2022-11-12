@@ -1,16 +1,16 @@
 ---
-layout: cses-fi
-date: 2021-06-28
+layout: post
 author: skohan
-link: https://cses.fi/problemset/task/1666
 tags: competitive-coding cses-fi
-explaination: >
+---
+<!-- more -->
+
+Problem link: [https://cses.fi/problemset/task/1666](https://cses.fi/problemset/task/1666)
+
+### explaination
  Simple BFS can solve the problem, but here I have implemented `disjoint union set` (union find and union)
  This method checks how many different groups of cities are connected. And then connects ( prints ) any one of the city from a group and connects it to next group till all groups are conncected.
 
-references: 
----
-<!-- more -->
 
 ```cpp
 

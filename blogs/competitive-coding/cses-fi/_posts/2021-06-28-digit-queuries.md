@@ -1,10 +1,13 @@
 ---
-layout: cses-fi
-date: 2021-06-28
+layout: post
 author: skohan
-link: https://cses.fi/problemset/task/2431/
 tags: competitive-coding cses-fi
-explaination: >
+---
+<!-- more -->
+
+Problem link: [https://cses.fi/problemset/task/2431/](https://cses.fi/problemset/task/2431/)
+
+### explaination
  The brute force algorithm is not effiecient cause the value of `k` can go upto 10^18.
  We need algorithm of almost `O(logN)`. Instead of looping through every number,
  we can skip the numbers which might not have the index. For example, for index `13`
@@ -17,12 +20,7 @@ explaination: >
  Then we find the exact number which will include the `kth` index. And finally we
  find the index from that number.
 
-references: []
----
-<!-- more -->
-
-
-```cpp
+```python
 
 #!/usr/bin/env python3
 
