@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    user: root
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
+      # - ./vendor/bundle/:/usr/local/bundle
+    ports:
+      - "4000:4000"
+    command: jekyll serve --watch --force_polling --drafts
